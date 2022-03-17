@@ -21,7 +21,7 @@ public class CategoryResource {
         List<Category> array = new ArrayList<>();
         array.add(cat1);
         array.add(cat2);
-
+        
         return array;
     }
 
