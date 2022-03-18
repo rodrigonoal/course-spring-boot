@@ -19,7 +19,8 @@ public class Category implements Serializable {
     @Setter
     @EqualsAndHashCode.Include
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY) //definindo a estratégia de geração automática (depende do database)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    //definindo a estratégia de geração automática (depende do database)
     private Integer id;
     @Getter
     @Setter
